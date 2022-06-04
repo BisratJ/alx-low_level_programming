@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block 
+ * main - main block
  * Description: Write a program that prints all possible
  * different combinations of two digits
  * Return: 0
@@ -25,7 +25,7 @@ while (c < 10)
 {
 if (!(f == c && e == d))
 {
-putchar('0'+ f);
+putchar('0' + f);
 putchar('0' + e);
 putchar(' ');
 putchar('0' + d);
