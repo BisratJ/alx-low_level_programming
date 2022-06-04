@@ -7,7 +7,7 @@
  * starting from 0, followed by a new line.
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 char c = 'z';
 while (c >= 'a')
