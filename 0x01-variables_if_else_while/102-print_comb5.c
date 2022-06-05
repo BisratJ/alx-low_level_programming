@@ -13,7 +13,6 @@ int d;
 int e;
 int f = 0;
 while (f < 10)
-{
 e = 0;
 while (e < 10)
 {
