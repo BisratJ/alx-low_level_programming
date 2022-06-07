@@ -1,16 +1,18 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * main - prints _putchar
- * Description: prints _putchar
- * Return: 0 (Success)
+ * main - Entry point
+ * Return:0
  */
+
 int main(void)
 {
-char text[9] = "_putchar";
+char c[10] = "Holberton";
 int i = 0;
-for (i = 0; i < 8; i++)
+while (i < 9)
 {
-_putchar(text[i]);
+_putchar(c[i]);
+i++;
 }
 _putchar('\n');
 return (0);
