@@ -7,12 +7,11 @@
 
 int main(void)
 {
-char c[10] = "_putchar";
+char text[9] = "_putchar";
 int i = 0;
-while (i < 9)
-{
-_putchar(c[i]);
-i++;
+for (i = 0; i < 8; i++)
+{	
+_putchar(text[i]);
 }
 _putchar('\n');
 return (0);
