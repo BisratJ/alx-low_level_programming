@@ -3,12 +3,14 @@
  *mul - multiplies two ints.
  *@a: integer.
  *@b: integer.
+ *
  *Return: product.
  */
+int mul(int a, int b)
+{
+	int product;
 
-int mul(int a, int b){
-  int mul;
-  mul = a * b;
-  return(mul);
+	product = a * b;
+	return (product);
 }
 
