@@ -21,13 +21,17 @@ _putchar(text[i]);
 
 int main(void)
 {
-char c[10] = "_putchar";
+char text[9] = "_putchar";
 int i = 0;
-while (i < 9)
+for (i = 0; i < 8; i++)
 {
+<<<<<<< HEAD
 _putchar(c[i]);
 i++;
 >>>>>>> 4469c8eeb5f9cbcedb31e4c9eeee95aaf5a1e6d8
+=======
+_putchar(text[i]);
+>>>>>>> 9a5c5d3a7b2c633d17c349ba0f57fa457fc14721
 }
 _putchar('\n');
 return (0);
