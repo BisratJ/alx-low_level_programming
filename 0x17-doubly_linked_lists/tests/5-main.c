@@ -27,4 +27,5 @@ int main(void)
 	printf("%d\n", node->n);
 	free_dlistint(head);
 	head = NULL;
-	
+        return (EXIT_SUCCESS);
+}
